@@ -1,0 +1,728 @@
+<!DOCTYPE HTML>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Rundi Wu</title>
+  
+  <meta name="author" content="Rundi Wu">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<!-- <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>"> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <table id="base"><tbody>
+    <tr>
+      <td>
+        <table id="bio"><tbody>
+          <tr>
+            <td id="bio-text">
+              <p id="bio-name">
+                <name>Rundi Wu | 吴润迪</name>
+              </p>
+              <p>
+                I'm a research scientist at <a href="https://deepmind.google">Google DeepMind</a> in San Francisco.
+                <br><br>
+                I received my PhD from Columbia University under the supervision of <a href="http://www.cs.columbia.edu/~cxz/index.htm">Changxi Zheng</a>.
+                Before that, I obtained my B.S. degree in 2020 from Turing Class, Peking University,
+                where I was fortunate to work with <a href="http://cfcs.pku.edu.cn/baoquan/">Baoquan Chen</a>.
+                I interned at <a href="https://www.tencent.com/en-us/about.html">Tencent America</a> in summer 2022, at <a href="https://research.google.com/">Google Research</a> in summer 2023
+                and at <a href="https://deepmind.google">Google DeepMind</a> in summer 2024.
+              </p>
+              <p id="bio-tags">
+                <i class="fa fa-fw fa-envelope"></i> <a href="mailto:rundi.wu@columbia.edu">Email</a> &nbsp/&nbsp
+                <i class="fa fa-file"></i> <a href="files/CV-RundiWu.pdf">CV</a> &nbsp/&nbsp
+                <i class="fa fa-fw fa-github" aria-hidden="true"></i> <a href="https://github.com/rundiwu">Github</a> &nbsp/&nbsp
+                <i class="ai ai-google-scholar"></i> <a href="https://scholar.google.com/citations?user=ulf_Pt0AAAAJ">Google Scholar</a> &nbsp/&nbsp
+                <i class="fa fa-fw fa-linkedin" aria-hidden="true"></i> <a href="https://www.linkedin.com/in/rundiwu">LinkedIn</a>
+              </p>
+
+            </td>
+            <td id="bio-img">
+              <a href="images/RundiWu2.jpeg"><img alt="profile photo" src="images/RundiWu2.jpeg" class="hoverZoomLink"></a>
+            </td>
+          </tr>
+        </tbody></table>
+
+
+        <table id="publication"><tbody>
+          <heading>Research</heading>
+
+          <tr class="paper" onmouseout="sig25_image_stop()" onmouseover="sig25_image_start()">
+            <td class="paper-img">
+              <div class="one">
+                <div class="two" id='sig25_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/SIG2025lighting.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/SIG2025lighting.png' style="width: 100%;">
+              </div>
+              <script type="text/javascript">
+                function sig25_image_start() {
+                  document.getElementById('sig25_image').style.opacity = "1";
+                }
+  
+                function sig25_image_stop() {
+                  document.getElementById('sig25_image').style.opacity = "0";
+                }
+                sig25_image_stop()
+              </script>
+            </td>
+            <td class="paper-text">
+              <papertitle>Spatiotemporally Consistent Indoor Lighting Estimation with Diffusion Priors</papertitle>
+              <br>
+              <a href="https://oriontmt.github.io/">
+                  Mutian Tong
+              </a>,
+              <strong>Rundi Wu</strong>,
+              <a href="https://www.cs.columbia.edu/~cxz/">
+                  Changxi Zheng
+              </a>
+              <br>
+              <em>SIGGRAPH 2025</em>
+              <br>
+              <a href="https://oriontmt.github.io/Sig25-4DLighting/">project page</a>
+              /
+              <a href="https://arxiv.org/abs/2508.08384">paper</a>
+              /
+              <a href="https://github.com/ORionTMT/Sig25_4DLighting">code</a>
+              <p></p>
+              <p>
+                Recovering dynamic indoor lighting from a video by learning a light field with from a 2D diffusion model.
+              </p>
+            </td>
+          </tr>
+  
+
+          <tr class="paper" onmouseout="cat4d_stop()" onmouseover="cat4d_start()">
+            <td class="paper-img">
+              <div class="one">
+                <div class="two" id='cat4d_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/cat4d.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/cat4d.png' style="width: 100%;">
+              </div>
+              <script type="text/javascript">
+                function cat4d_start() {
+                  document.getElementById('cat4d_image').style.opacity = "1";
+                }
+  
+                function cat4d_stop() {
+                  document.getElementById('cat4d_image').style.opacity = "0";
+                }
+                cat4d_stop()
+              </script>
+            </td>
+            <td class="paper-text">
+              <papertitle>CAT4D: Create Anything in 4D with Multi-View Video Diffusion Models</papertitle>
+              <br>
+              <strong>Rundi Wu</strong>,
+              <a href="https://ruiqigao.github.io/">
+                  Ruiqi Gao
+              </a>,
+              <a href="https://poolio.github.io/">
+                  Ben Poole
+              </a>,
+              <a href="https://alextrevithick.github.io/">
+                  Alex Trevithick
+              </a>,
+              <a href="https://www.cs.columbia.edu/~cxz/">
+                  Changxi Zheng
+              </a>,
+              <a href="https://jonbarron.info/">
+                  Jonathan T. Barron
+              </a>,
+              <a href="https://holynski.org/">
+                  Aleksander Holynski
+              </a>
+              <br>
+              <em>CVPR 2025 (Oral)</em>
+              <br>
+              <a href="https://cat-4d.github.io/">project page</a>
+              /
+              <a
+                href="https://arxiv.org/abs/2411.18613">paper</a>
+              <p></p>
+              <p>
+                Transforming real or generated videos to 4D scenes with a multi-view diffusion model.
+              </p>
+            </td>
+          </tr>
+  
+
+          <tr class="paper" onmouseout="simvs_stop()" onmouseover="simvs_start()">
+            <td class="paper-img">
+              <div class="one">
+                <div class="two" id='simvs_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/simvs.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/simvs.png' style="width: 100%;">
+              </div>
+              <script type="text/javascript">
+                function simvs_start() {
+                  document.getElementById('simvs_image').style.opacity = "1";
+                }
+  
+                function simvs_stop() {
+                  document.getElementById('simvs_image').style.opacity = "0";
+                }
+                simvs_stop()
+              </script>
+            </td>
+            <td class="paper-text">
+              <papertitle>SimVS: Simulating World Inconsistencies for Robust View Synthesis</papertitle>
+              <br>
+              <a href="https://alextrevithick.github.io/">Alex Trevithick</a>,
+              <a href="https://scholar.google.com/citations?user=-KSDNZQAAAAJ&hl=en">Roni Paiss</a>,
+              <a href="https://henzler.github.io/">Philipp Henzler</a>,
+              <a href="https://dorverbin.github.io/">Dor Verbin</a>,
+              <strong>Rundi Wu</strong>,
+              <a href="https://hadizayer.github.io/">Hadi Alzayer</a>,
+              <a href="https://ruiqigao.github.io/">Ruiqi Gao</a>,
+              <a href="https://poolio.github.io/">Ben Poole</a>,
+              <a href="https://jonbarron.info/">Jonathan T. Barron</a>,
+              <a href="https://holynski.org/">Aleksander Holynski</a>,
+              <a href="https://cseweb.ucsd.edu/~ravir/">Ravi Ramamoorthi</a>,
+              <a href="https://pratulsrinivasan.github.io/">Pratul P. Srinivasan</a>
+              <br>
+              <em>CVPR 2025</em>
+              <br>
+              <a href="https://alextrevithick.github.io/simvs/">project page</a>
+              /
+              <a
+                href="https://arxiv.org/abs/2412.07696">paper</a>
+              <p></p>
+              <p>
+                Using video models to simulate scene variations and training a multiview diffusion model to harmonize inconsistent captures.
+              </p>
+            </td>
+          </tr>
+  
+          <tr class="paper">
+            <td class="paper-img">
+              <div class="one">
+                <img src='images/vlmaterial.png' style="width: 100%;">
+              </div>
+            </td>
+            <td class="paper-text">
+              <papertitle>VLMaterial: Procedural Material Generation with Large Vision-Language Models</papertitle>
+              <br>
+              <a href="https://people.csail.mit.edu/beichen/">
+                Beichen Li
+              </a>,
+              <strong>Rundi Wu</strong>,
+              <a href="https://people.csail.mit.edu/asolar/">
+                Armando Solar-Lezama
+              </a>,
+              <a href="https://people.csail.mit.edu/liangs/">
+                Liang Shi
+              </a>,
+              <a href="https://www.cs.columbia.edu/~cxz/">
+                Changxi Zheng
+              </a>,
+              <a href="https://berndbickel.com/about-me/">
+                Bernd Bickel
+              </a>,
+              <a href="https://cdfg.mit.edu/wojciech/">
+                Wojciech Matusik
+              </a>
+              <br>
+              <em>ICLR 2025 (Spotlight)</em>
+              <br>
+              <a href="https://arxiv.org/abs/2501.18623">paper</a> / <a href="https://github.com/mit-gfx/VLMaterial">code</a>
+              <p></p>
+              <p>
+                Leveraging a vision-language model to infer procedural materials from input images.
+              </p>
+            </td>
+          </tr>
+  
+        <tr class="paper" onmouseout="gcd_stop()" onmouseover="gcd_start()">
+          <td class="paper-img">
+            <div class="one">
+              <div class="two" id='gcd_image'><video  width=100% height=100% muted autoplay loop>
+              <source src="images/gcd.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video></div>
+              <img src='images/gcd.png' style="width: 100%;">
+            </div>
+            <script type="text/javascript">
+              function gcd_start() {
+                document.getElementById('gcd_image').style.opacity = "1";
+              }
+
+              function gcd_stop() {
+                document.getElementById('gcd_image').style.opacity = "0";
+              }
+              gcd_stop()
+            </script>
+          </td>
+          <td class="paper-text">
+            <papertitle>Generative Camera Dolly: Extreme Monocular Dynamic Novel View Synthesis</papertitle>
+            <br>
+            <a href="https://basile.be/about-me/">
+                Basile Van Hoorick
+            </a>,
+            <strong>Rundi Wu</strong>,
+            <a href="https://www.cs.columbia.edu/~eo2464/">
+                Ege Ozguroglu
+            </a>,
+            <a href="https://kylesargent.github.io/">
+                Kyle Sargent
+            </a>,<br>
+            <a href="https://ruoshiliu.github.io/">
+                Ruoshi Liu
+            </a>,
+            <a href="https://pvtokmakov.github.io/home/">
+                Pavel Tokmakov
+            </a>,
+            <a href="https://www.achaldave.com/">
+                Achal Dave
+            </a>,
+            <a href="https://www.cs.columbia.edu/~cxz/">
+                Changxi Zheng
+            </a>,
+            <a href="https://www.cs.columbia.edu/~vondrick/">
+                Carl Vondrick
+            </a>
+            <br>
+            <em>ECCV 2024 (Oral)</em>
+            <br>
+            <a href="https://gcd.cs.columbia.edu/">project page</a>
+            /
+            <a
+              href="https://github.com/basilevh/gcd">github</a>
+            /
+            <a
+              href="https://arxiv.org/abs/2405.14868">paper</a>
+            <p></p>
+            <p>
+              A video-to-video model that synthesizes large-angle novel viewpoints of dynamic scenes.
+            </p>
+          </td>
+        </tr>
+
+
+        <tr class="paper" onmouseout="physdreamer_stop()" onmouseover="physdreamer_start()">
+          <td class="paper-img">
+            <div class="one">
+              <div class="two" id='physdreamer_image'><video  width=100% height=100% muted autoplay loop>
+              <source src="images/physdreamer.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video></div>
+              <img src='images/physdreamer.png' style="width: 100%;">
+            </div>
+            <script type="text/javascript">
+              function physdreamer_start() {
+                document.getElementById('physdreamer_image').style.opacity = "1";
+              }
+
+              function physdreamer_stop() {
+                document.getElementById('physdreamer_image').style.opacity = "0";
+              }
+              physdreamer_stop()
+            </script>
+          </td>
+          <td class="paper-text">
+            <papertitle>PhysDreamer: Physics-Based Interaction with 3D Objects via Video Generation</papertitle>
+            <br>
+            <a href="https://tianyuanzhang.com/">
+                Tianyuan Zhang
+            </a>,
+            <a href="https://kovenyu.com/">
+                Hong-Xing "Koven" Yu
+            </a>,
+            <strong>Rundi Wu</strong>,
+            <a href="https://brandonyfeng.github.io/">
+                Brandon Y. Feng
+            </a>,<br>
+            <a href="https://www.cs.columbia.edu/~cxz/">
+                Changxi Zheng
+            </a>,
+            <a href="https://www.cs.cornell.edu/~snavely/">
+                Noah Snavely
+            </a>,
+            <a href="https://jiajunwu.com/">
+                Jiajun Wu
+            </a>,
+            <a href="https://billf.mit.edu/">
+                William T. Freeman
+            </a>
+            <br>
+            <em>ECCV 2024 (Oral)</em>
+            <br>
+            <a href="https://physdreamer.github.io/">project page</a>
+            /
+            <a
+              href="https://github.com/a1600012888/PhysDreamer">github</a>
+            /
+            <a
+              href="https://arxiv.org/abs/2404.13026">paper</a>
+            <p></p>
+            <p>
+              Enabling interaction with static 3D objects by distilling material parameters from video generation models.
+            </p>
+          </td>
+        </tr>
+
+        <tr class="paper" onmouseout="recon_stop()" onmouseover="recon_start()">
+          <td class="paper-img">
+            <div class="one">
+              <div class="two" id='recon_image'><video  width=100% height=100% muted autoplay loop>
+              <source src="images/recon.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video></div>
+              <img src='images/recon.png' style="width: 100%;">
+            </div>
+            <script type="text/javascript">
+              function recon_start() {
+                document.getElementById('recon_image').style.opacity = "1";
+              }
+
+              function recon_stop() {
+                document.getElementById('recon_image').style.opacity = "0";
+              }
+              recon_stop()
+            </script>
+          </td>
+          <td class="paper-text">
+            <papertitle>ReconFusion: 3D Reconstruction with Diffusion Priors</papertitle>
+            <br>
+            <strong>Rundi Wu*</strong>,
+            <a href="http://bmild.github.io/">
+                Ben Mildenhall*
+            </a>,
+            <a href="https://henzler.github.io/">
+                Philipp Henzler
+            </a>,
+            <a href="https://keunhong.com/">
+                Keunhong Park
+            </a>,
+            <a href="https://ruiqigao.github.io/">
+                Ruiqi Gao
+            </a>,
+            <a href="https://scholar.google.com/citations?user=_pKKv2QAAAAJ&hl=en/">
+                Daniel Watson
+            </a>,
+            <a href="https://pratulsrinivasan.github.io/">
+                Pratul P. Srinivasan
+            </a>,
+            <a href="https://dorverbin.github.io/">
+                Dor Verbin
+            </a>,
+            <a href="https://jonbarron.info/">
+                Jonathan T. Barron
+            </a>,
+            <a href="https://poolio.github.io/">
+                Ben Poole
+            </a>,
+            <a href="https://holynski.org/">
+                Aleksander Holynski*
+            </a>
+            <br>
+            <em>CVPR 2024</em>
+            <br>
+            <a href="https://reconfusion.github.io/">project page</a>
+            /
+            <a href="https://arxiv.org/abs/2312.02981">arXiv</a>
+            <p></p>
+            <p>
+            Building a multi-view conditioned diffusion model and using it as a prior to regularize radiance field reconstruction from only a few images.
+            </p>
+          </td>
+        </tr>
+
+
+        <tr class="paper" onmouseout="sin3dm_stop()" onmouseover="sin3dm_start()">
+          <td class="paper-img">
+            <div class="one">
+              <div class="two" id='sin3dm_image'>
+                <img src='images/sin3dm_img.gif' style="width: 100%;">
+              </div>
+              <img src='images/sin3dm_img.jpg' style="width: 100%;">
+            </div>
+            <script type="text/javascript">
+              function sin3dm_start() {
+                document.getElementById('sin3dm_image').style.opacity = "1";
+              }
+
+              function sin3dm_stop() {
+                document.getElementById('sin3dm_image').style.opacity = "0";
+              }
+              sin3dm_stop()
+            </script>
+          </td>
+          <td class="paper-text">
+            <papertitle>Sin3DM: Learning a Diffusion Model from a Single 3D Textured Shape</papertitle>
+            <br>
+              <strong>Rundi Wu</strong>,
+              <a href="https://ruoshiliu.github.io/">Ruoshi Liu</a>,
+              <a href="https://www.cs.columbia.edu/~vondrick/">Carl Vondrick</a>,
+              <a href="http://www.cs.columbia.edu/~cxz/">Changxi Zheng</a>
+            <br>
+            <em>ICLR 2024</em> 
+            <br>
+            <a href="https://sin3dm.github.io/">project page</a> | <a href="https://arxiv.org/abs/2305.15399">paper</a> | <a href="https://github.com/Sin3DM/Sin3DM">code</a>
+            <p>
+              A diffusion model trained on a single 3D textured shape, enabling generating diverse high-quality variations of it.
+            </p>
+          </td>
+        </tr>
+
+        <tr class="paper">
+          <td class="paper-img">
+            <img src="images/zero123.png">
+          </td>
+          <td class="paper-text">
+            <papertitle>Zero-1-to-3: Zero-shot One Image to 3D Object</papertitle>
+            <br>
+              <a href="https://ruoshiliu.github.io/">Ruoshi Liu</a>,
+              <strong>Rundi Wu</strong>,
+              <a href="https://basile.be/about-me/">Basile Van Hoorick</a>,
+              <a href="https://pvtokmakov.github.io/home/">Pavel Tokmakov</a>,
+              <a href="https://zakharos.github.io/">Sergey Zakharov</a>,
+              <a href="https://www.cs.columbia.edu/~vondrick/">Carl Vondrick</a>
+            <br>
+            <em>ICCV 2023</em> 
+            <br>
+            <a href="https://zero123.cs.columbia.edu/">project page</a> | <a href="https://arxiv.org/abs/2303.11328">paper</a> | <a href="https://github.com/cvlab-columbia/zero123">code</a> | <a href="https://huggingface.co/spaces/cvlab/zero123-live">demo</a>
+            <p>
+              Finetuning the stable diffusion model on synthetic 3D data to enable zero-shot novel view synthesis from a single image of an object.
+            </p>
+          </td>
+        </tr>
+
+        <tr class="paper">
+          <td class="paper-img">
+            <img src="images/inrPDE.png">
+          </td>
+          <td class="paper-text">
+            <papertitle>Implicit Neural Spatial Representations for Time-dependent PDEs</papertitle>
+            <br>
+              <a href="https://www.cs.columbia.edu/~honglinchen/">Honglin Chen*</a>,
+              <strong>Rundi Wu*</strong>,
+              <a href="https://www.dgp.toronto.edu/~eitan/">Eitan Grinspun</a>,
+              <a href="http://www.cs.columbia.edu/~cxz/index.htm">Changxi Zheng</a>,
+              <a href="https://peterchencyc.com">Peter Yichen Chen</a>
+            <br>
+            <em>ICML 2023</em> 
+            <br>
+            <a href="https://www.cs.columbia.edu/cg/INSR-PDE/">project page</a> | <a href="https://arxiv.org/abs/2210.00124">paper</a> | <a href="https://github.com/honglin-c/INSR-PDE">code</a>
+            <p>
+              Solving time-dependent PDEs by evolving an implicit neural spatial representation over time.
+            </p>
+          </td>
+        </tr>
+
+        <tr class="paper" onmouseout="ssg_stop()" onmouseover="ssg_start()">
+          <td class="paper-img">
+            <div class="one">
+              <div class="two" id='ssg_image'>
+                <video  width=100% height=100% muted autoplay loop>
+                  <source src="images/SIGA2022ssg.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+              <img src='images/SIGA2022ssg.jpg' style="width: 100%;">
+            </div>
+            <script type="text/javascript">
+              function ssg_start() {
+                document.getElementById('ssg_image').style.opacity = "1";
+              }
+
+              function ssg_stop() {
+                document.getElementById('ssg_image').style.opacity = "0";
+              }
+              ssg_stop()
+            </script>
+          </td>
+          <td class="paper-text">
+            <papertitle>Learning to Generate 3D Shapes from a Single Example</papertitle>
+            <br>
+              <strong>Rundi Wu</strong>, <a href="http://www.cs.columbia.edu/~cxz/index.htm">Changxi Zheng</a>
+            <br>
+            <em>SIGGRAPH Asia 2022 (Journal Track)</em> 
+            <br>
+            <a href="http://www.cs.columbia.edu/cg/SingleShapeGen/">project page</a> |  <a href="https://arxiv.org/abs/2208.02946">paper</a> | <a href="https://github.com/rundiwu/SingleShapeGen">code</a> | <a href="http://www.cs.columbia.edu/cg/SingleShapeGen/sa2022_video.mp4">video</a>
+            <p>
+              Training a multi-scale patch GAN on a single example to generate 3D shapes that locally resemble the input.
+            </p>
+          </td>
+        </tr>
+
+        <tr class="paper">
+          <td class="paper-img">
+            <img src="images/ICASSP2022rtdenoise.png" >
+          </td>
+          <td class="paper-text">
+            <papertitle>Dynamic Sliding Window for Realtime Denoising Networks</papertitle>
+            <br>
+              Jinxu Xiang, Yuyang Zhu, <strong>Rundi Wu</strong>, <a href="https://henryxrl.wordpress.com">Ruilin Xu</a>, Yuko Ishiwaka, <a href="http://www.cs.columbia.edu/~cxz/index.htm">Changxi Zheng</a>
+            <br>
+            <em>ICASSP 2022</em> 
+            <br>
+            <a href="https://ieeexplore.ieee.org/abstract/document/9747168">paper</a>
+            <p>
+              A realtime speech denoising system with a dynamic sliding window.
+            </p>
+          </td>
+        </tr>
+
+        <tr class="paper">
+          <td class="paper-img">
+            <img src="images/ICCV2021deepcad.png">
+          </td>
+          <td class="paper-text">
+            <papertitle>DeepCAD: A Deep Generative Network for Computer-Aided Design Models</papertitle>
+            <br>
+              <strong>Rundi Wu</strong>, <a href="http://chang.engineer">Chang Xiao</a>, <a href="http://www.cs.columbia.edu/~cxz/index.htm">Changxi Zheng</a>
+            <br>
+              <em>ICCV 2021</em> 
+            <br>
+            <a href="http://www.cs.columbia.edu/cg/deepcad/">project page</a> |  <a href="https://arxiv.org/abs/2105.09492">paper</a> | <a href="https://github.com/rundiwu/DeepCAD">code</a>
+            <p>
+              Using transformers to encode and decode parametric CAD modeling sequences.
+            </p>
+          </td>
+        </tr>
+      
+        <tr class="paper">
+          <td class="paper-img">
+            <img src="images/NeurIPS2020denoise.png">
+          </td>
+          <td class="paper-text">
+            <papertitle>Listening to Sounds of Silence for Speech Denoising</papertitle>
+            <br>
+              Ruilin Xu</a>, <strong>Rundi Wu</strong>, Yuko Ishiwaka, <a href="http://www.cs.columbia.edu/~vondrick/">Carl Vondrick</a>, <a href="http://www.cs.columbia.edu/~cxz/index.htm">Changxi Zheng</a>
+            <br>
+              <em>NeurIPS 2020</em> 
+            <br>
+            <a href="http://www.cs.columbia.edu/cg/listen_to_the_silence/">project page</a> | <a href="https://arxiv.org/pdf/2010.10013.pdf">paper</a> | <a href="https://github.com/henryxrl/Listening-to-Sound-of-Silence-for-Speech-Denoising">code</a>
+            <p>
+              Denoising speech signals by recovering noise from "silent" time periods.
+            </p>
+          </td>
+        </tr>
+
+        <tr class="paper">
+          <td class="paper-img">
+            <img src="images/ECCV2020mpc.jpg">
+          </td>
+          <td class="paper-text">
+            <papertitle>Multimodal Shape Completion via Conditional Generative Adversarial Networks</papertitle>
+            <br>
+              <strong>Rundi Wu</strong>*, <a href="https://xuelin-chen.github.io">Xuelin Chen</a>*, <a href="http://www.yixin.io">Yixin Zhuang</a>, <a href="http://cfcs.pku.edu.cn/baoquan/">Baoquan Chen</a>
+            <br>
+              <em>ECCV 2020 (spotlight)</em> 
+            <br>
+            <a href="files/multimodal-pc/">project page</a> | <a href="http://arxiv.org/abs/2003.07717">paper</a> | <a href="https://github.com/rundiwu/Multimodal-Shape-Completion">code</a>
+            <p>
+              Using conditional GANs to complete a partial 3D scan with multiple plausible outputs.
+            </p>
+          </td>
+        </tr>
+
+        <tr class="paper">
+          <td class="paper-img">
+            <img src="images/CVPR2020pqnet.png">
+          </td>
+          <td class="paper-text">
+            <papertitle>PQ-NET: A Generative Part Seq2Seq Network for 3D Shapes</papertitle>
+            <br>
+              <strong>Rundi Wu</strong>, <a href="http://www.yixin.io">Yixin Zhuang</a>, <a href="https://kevinkaixu.net">Kai Xu</a>, <a href="https://www2.cs.sfu.ca/~haoz/">Hao Zhang</a>, <a href="http://cfcs.pku.edu.cn/baoquan/">Baoquan Chen</a>
+            <br>
+              <em>CVPR 2020</em> 
+            <br>
+              <a href="http://arxiv.org/abs/1911.10949">paper</a> | <a href="https://github.com/rundiwu/PQ-NET">code</a> | <a href="files/pqnet-slides.pdf">slides</a>
+            <br/>
+            <p>
+              Using a sequence-to-sequence network to generate 3D shapes via sequential part assembly.
+            </p>
+          </td>
+        </tr>
+
+        <tr class="paper">
+          <td class="paper-img">
+            <img src="images/SIG2020motion.png">
+          </td>
+          <td class="paper-text">
+            <papertitle>Learning Character-Agnostic Motion for Motion Retargeting in 2D</papertitle>
+            <br>
+              <a href="http://kfiraberman.github.io">Kfir Aberman</a>, <strong>Rundi Wu</strong>, <a href="http://danix3d.droppages.com">Dani Lischinski</a>, <a href="http://cfcs.pku.edu.cn/baoquan/">Baoquan Chen</a>, <a href="https://www.cs.tau.ac.il/~dcor/index.html">Daniel Cohen-Or</a>
+            <br>
+              <em>SIGGRAPH 2019</em> 
+            <br>
+              <a href="https://motionretargeting2d.github.io">project page</a> | <a href="https://motionretargeting2d.github.io/paper_camera_ready.pdf">paper</a> | <a href="https://github.com/rundiwu/2D-Motion-Retargeting">code</a> | <a href="https://www.youtube.com/watch?v=fR4h4OjZSdU&amp;feature=youtu.be">video</a>
+            <br/>
+            <p>
+              Transferring the video-captured motion from one performer to another by learning a character-agnostic motion representation.
+            </p>
+          </td>
+        </tr>
+      </tbody></table>
+
+
+      <!-- <table id="misc"><tbody>
+        <tr>
+          <td>
+            <heading>Experiences</heading>
+            <ul>
+              <li>Student Researcher, Google Research, Summer 2023.</li>
+              <li>Research Intern, Tencent America, Summer 2022.</li>
+          </ul>
+          </td>
+        </tr>
+      </tbody></table> -->
+<!-- 
+      <table id="photos"><tbody>
+        <heading>Travel & photography</heading>
+        <br><br>
+        <div class="image-row">
+          <div class="image-column">
+            <img src="photos/brooklynbridge.JPG">
+            <img src="photos/goldenbridge.jpg">
+          </div>
+          <div class="image-column">
+            <img src="photos/rockport.jpg">
+            <img src="photos/bigben_macau.jpg">
+          </div>
+          <div class="image-column">
+            <img src="photos/palace.jpg">
+            <img src="photos/xianghu.jpg">
+          </div>
+        </div>
+      </tbody></table> -->
+
+      <table id="misc"><tbody>
+        <tr>
+          <td>
+            <heading>Misc</heading>
+            <ul>
+              <li>I’m a great sports fan, loving snowboarding/F1/basketball/baseball/soccer.</li>
+              <li>I like playing strategy games. Europa Universails IV is my favorite.</li>
+          </ul>
+          </td>
+        </tr>
+      </tbody></table>
+
+      <table id="footer"><tbody>
+        <tr>
+          <td>
+            <br>
+            <p id="footer-text">
+            Website template from <a href="https://jonbarron.info/">Jon Barron</a>.
+            <br> Last updated: Aug, 2025
+            </p>
+          </td>
+        </tr>
+      </tbody></table>
+    </td>
+  </tr>
+</tbody></table>
+</body>
+
+</html>
