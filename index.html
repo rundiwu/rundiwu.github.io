@@ -41,7 +41,7 @@
 
             </td>
             <td id="bio-img">
-              <a href="images/RundiWu2.jpeg"><img alt="profile photo" src="images/RundiWu2.jpeg" class="hoverZoomLink"></a>
+              <a href="images/RundiWu3.jpg"><img alt="profile photo" src="images/RundiWu3.jpg" class="hoverZoomLink"></a>
             </td>
           </tr>
         </tbody></table>
@@ -49,7 +49,49 @@
 
         <table id="publication"><tbody>
           <heading>Research</heading>
-
+  
+          <tr class="paper" onmouseout="zipmap_stop()" onmouseover="zipmap_start()">
+            <td class="paper-img">
+              <div class="one">
+                <div class="two" id='zipmap_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/zipmap.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/zipmap.jpg' style="width: 100%;">
+              </div>
+              <script type="text/javascript">
+                function zipmap_stop() {
+                  document.getElementById('zipmap_image').style.opacity = "1";
+                }
+  
+                function zipmap_start() {
+                  document.getElementById('zipmap_image').style.opacity = "0";
+                }
+                zipmap_stop()
+              </script>
+            </td>
+            <td class="paper-text">
+              <papertitle>ZipMap: Linear-Time Stateful 3D Reconstruction via Test-Time Training</papertitle>
+              <br>
+              <a href="https://haian-jin.github.io/">Haian Jin</a>,
+              <strong>Rundi Wu</strong>,
+              <a href="https://tianyuanzhang.com/">Tianyuan Zhang</a>,
+              <a href="https://ruiqigao.github.io/">Ruiqi Gao</a>, 
+              <a href="https://jonbarron.info/">Jonathan T. Barron</a>,<br>
+              <a href="https://www.cs.cornell.edu/~snavely/">Noah Snavely</a>,
+              <a href="https://holynski.org/">Aleksander Hołyński</a>
+              <br>
+              <em>CVPR 2026</em>
+              <br>
+              <a href="https://haian-jin.github.io/ZipMap/">project page</a> /
+              <a href="https://arxiv.org/abs/2603.04385">arXiv</a> /
+              <a href="https://github.com/Haian-Jin/ZipMap">code</a>
+              <p></p>
+              <p>
+                Linear-time feed-forward 3D reconstruction via test-time training.
+              </p>
+            </td>
+          </tr>
           <tr class="paper" onmouseout="sig25_image_stop()" onmouseover="sig25_image_start()">
             <td class="paper-img">
               <div class="one">
